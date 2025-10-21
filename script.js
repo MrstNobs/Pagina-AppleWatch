@@ -79,8 +79,16 @@ function AtualizaCor() {
     numImagemSelecionada +
     ".jpeg";
 
-  imagemMiniAtura0 =
+  imagemMiniAtura0.src =
     "./imagens/opcoes-cores/imagens-" +
     nomeCor.toLowerCase() +
     "/imagem-0.jpeg";
+  imagemMiniAtura1.src =
+    "./imagens/opcoes-cores/imagens-" +
+    nomeCor.toLowerCase() +
+    "/imagem-1.jpeg";
+  imagemMiniAtura2.src =
+    "./imagens/opcoes-cores/imagens-" +
+    nomeCor.toLowerCase() +
+    "/imagem-2.jpeg";
 }
