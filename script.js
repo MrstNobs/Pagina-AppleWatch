@@ -71,7 +71,6 @@ function AtualizaCor() {
     " " +
     opcoesTamanho[numTamanhoSelecionado];
   nomeCorSelecionada.innerText = "Cor -" + " " + nomeCor;
-
   imagemVisualizacao.src =
     "./imagens/opcoes-cores/imagens-" +
     nomeCor.toLowerCase() +
